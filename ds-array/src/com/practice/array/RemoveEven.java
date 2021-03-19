@@ -2,24 +2,7 @@ package com.practice.array;
 
 public class RemoveEven {
 	public int[] removeEven(int[] arr) {
-		/*
-		 * List<Integer> list = new ArrayList<>(); 
-		 * for (int i = 0; i < arr.length; i++) {
-		 *  if (arr[i] % 2 != 0) { 
-		 *   list.add(arr[i]); 
-		 *  } 
-		 * }
-		 * 
-		 * int[] newArr = new int[list.size()];
-		 * for (int i = 0; i < list.size(); i++) {
-		 * 	newArr[i] = list.get(i); 
-		 * }
-		 * 
-		 * return newArr;
-		 */
-
-		/*************** Another solution ****************/
-
+	
 		int oddNumbers = 0;
 		for (int i = 0; i < arr.length; i++) {
 			if (arr[i] % 2 != 0) {
